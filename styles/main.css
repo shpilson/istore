@@ -20,3 +20,9 @@ body .footer .footer-meta {
 body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
     border-color: transparent;
 }
+
+/* Header – Шапка */
+
+.header .header-wrapper {
+    padding: 10px 0 !important;
+}
