@@ -1,16 +1,9 @@
 const header = document.querySelector(".container-fluid");
 
-setTimeout(function changeHeader (el) {
-    if (el !== null) {
+setTimeout(function changeHeader () {
         console.log("Поймали элемент");
-        el.classList.remove('container-fluid');
-        el.classList.add('container');
-    }
-
-    else {
-        console.log("Менять нечего")
-    }
-
+        document.querySelector('.container-fluid').classList.remove('container-fluid');
+        document.querySelector('.container-fluid').classList.add('container');
 }, 1000);
 
 changeHeader(header);
