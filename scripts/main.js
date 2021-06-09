@@ -1,6 +1,6 @@
 const header = document.querySelector(".container-fluid");
 
-function changeHeader (el) {
+setTimeout(function changeHeader (el) {
     if (el !== null) {
         console.log("Поймали элемент");
         el.className = "container";
@@ -10,6 +10,6 @@ function changeHeader (el) {
         console.log("Менять нечего")
     }
 
-}
+}, 1000);
 
 changeHeader(header);
