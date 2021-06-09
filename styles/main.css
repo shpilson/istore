@@ -1,6 +1,6 @@
 /* Фон */
 
-.wrapper, .header-wrapper, .navigation-wrapper {
+.wrapper, .header.with-search {
     background-color: #d1e7cd;
 }
 
