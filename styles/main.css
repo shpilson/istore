@@ -4,5 +4,5 @@
 .container-fluid,
 .header.with-search
 .navigation-wrapper .container {
-    background-color: #d1e7cd;
+    background-color: #d1e7cd !important;
 }
