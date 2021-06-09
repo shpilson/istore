@@ -1,9 +1,9 @@
 const header = document.querySelector(".container-fluid");
 
 function changeHeader (el) {
-    if (el) {
+    if (el !== null) {
         console.log("Поймали элемент");
-       // el.class = ".container";
+        el.className = "container";
     }
 
     else {
