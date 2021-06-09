@@ -1,7 +1,8 @@
 setTimeout(function changeHeader () {
         console.log("Поймали элемент");
-        document.querySelector('.container-fluid').classList.remove('container-fluid');
-        document.querySelector('.container-fluid').classList.add('container');
+        const old = document.querySelector('.container-fluid').classList.remove('container-fluid');
+        const newEl = old.classList.add('container');
+        return newEl;
 }, 1000);
 
 changeHeader();
