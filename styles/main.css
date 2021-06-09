@@ -15,3 +15,8 @@ body .footer .footer-meta {
     max-height: 50px;
 }
 
+/* Header – Поиск */
+
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+    border-color: transparent;
+}
