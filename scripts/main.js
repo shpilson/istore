@@ -6,4 +6,4 @@ setTimeout(function changeHeader () {
         document.querySelector('.container-fluid').classList.add('container');
 }, 1000);
 
-changeHeader(header);
+changeHeader();
