@@ -1,5 +1,3 @@
-const header = document.querySelector(".container-fluid");
-
 setTimeout(function changeHeader () {
         console.log("Поймали элемент");
         document.querySelector('.container-fluid').classList.remove('container-fluid');
