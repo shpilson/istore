@@ -1,7 +1,7 @@
 const header = document.querySelector(".container-fluid");
 
 function changeHeader (el) {
-    if (el != 0) {
+    if (el != null) {
         el.class = ".container";
     }
 
