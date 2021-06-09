@@ -2,7 +2,7 @@
 
 .wrapper, 
 .container-fluid,
-.header.with-search,
+.header-wrapper,
 .navigation-wrapper {
     background-color: #d1e7cd !important;
 }
