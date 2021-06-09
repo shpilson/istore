@@ -3,7 +3,8 @@ const header = document.querySelector(".container-fluid");
 setTimeout(function changeHeader (el) {
     if (el !== null) {
         console.log("Поймали элемент");
-        el.className = "container";
+        el.classList.remove('container-fluid');
+        el.classList.add('container');
     }
 
     else {
