@@ -129,11 +129,10 @@ div.search_field>input {
 /* Header - Navigation */
 
 @media (min-width: 1200px) {
-    body.theme_11 .wrapper .header .navigation-wrapper>div.container,
-    body.theme_11 .wrapper .homefeatured_category>div.container {
-      max-width: 1140px !important;
+    body.theme_11 .wrapper .header .navigation-wrapper>div.container, body.theme_11 .wrapper .homefeatured_category>div.container {
+        max-width: 1140px !important;
     }
-  }
+}
 
 header .nav {
     -ms-flex-wrap: nowrap !important;
@@ -147,6 +146,23 @@ header .navigation .nav.sf-menu {
     justify-content: flex-start !important;
 }
 
-header > div.navigation-wrapper > div > nav > ul {
+header>div.navigation-wrapper>div>nav>ul {
     text-transform: uppercase;
+}
+
+/* Header - mobile */
+
+@media (max-width: 991px) {
+    header .navigation {
+        display: none !important;
+    }
+    body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets {
+        padding-right: 15px !important;
+    }
+}
+
+@media (max-width: 495px) {
+    body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+        display: none !important;
+    }
 }
