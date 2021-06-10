@@ -129,3 +129,11 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
     body.theme-gray .header .navigation-wrapper {
         border-top: none !important;
     }
+
+    /* Header - Search, text */
+    #search > div.search_field > input {
+        font-size: 16px !important;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+    }
