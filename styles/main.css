@@ -98,5 +98,5 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
    }
   
    body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
-    background-color: transparent;
+    background-color: transparent !important;
 }
