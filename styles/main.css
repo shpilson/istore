@@ -146,7 +146,7 @@ header .navigation .nav.sf-menu {
     justify-content: flex-start !important;
 }
 
-.nav.sf-menu {
+.nav.sf-menu li a {
     text-transform: uppercase !important;
     font-family: Roboto, sans-serif !important;
     font-style: normal !important;
