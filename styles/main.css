@@ -147,6 +147,6 @@ header .navigation .nav.sf-menu {
     justify-content: flex-start !important;
 }
 
-#home > div > header > div.navigation-wrapper > div > nav > ul {
+header > div.navigation-wrapper > div > nav > ul {
     text-transform: uppercase;
 }
