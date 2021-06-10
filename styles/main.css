@@ -23,7 +23,7 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
     padding: 10px 0 !important;
 }
 
-/* Отображаем иконку авторизации */
+/* Header – Отображаем иконку авторизации */
 
 .wrapper .header .header-wrapper .header_widgets .header_login {
     padding: 0 20px !important;
@@ -37,6 +37,7 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
     display: block !important;
   }
 
+/* Header – Скрываем текст "Корзина" */
 
   .header-cart .d-none.d-lg-inline-block  {
     display: block !important;  
