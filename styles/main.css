@@ -105,7 +105,7 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
         font-size: 23px !important;
     }
 
-    /* Header */
+    /* Header - Выравниваем контейнер */
 
     .header-wrapper > div {
         display: -webkit-box;
@@ -123,4 +123,9 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
         align-items: center;
       }
       
-      
+
+    /* Header - Скрываем рамку */
+
+    body.theme-gray .header .navigation-wrapper {
+        border-top: none !important;
+    }
