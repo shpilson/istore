@@ -39,6 +39,6 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
 
 /* Header – Скрываем текст "Корзина" */
 
-    .d-none.d-lg-inline-block  {
-    display: none !important;  
-  }
+    .cart_drop_down #cart > span:first-child {
+    display: none !important;
+    }
