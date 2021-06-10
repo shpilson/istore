@@ -81,9 +81,6 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
              align-items: center;
    }
   
-   .cart_drop_down #cart > span:first-child {
-     display: none !Important;
-   }
   
    body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
      width: 18px !important;
