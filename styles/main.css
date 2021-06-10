@@ -148,6 +148,14 @@ header .navigation .nav.sf-menu {
 
 header>div.navigation-wrapper>div>nav>ul {
     text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 /* Header - mobile */
