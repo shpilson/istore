@@ -166,3 +166,9 @@ header>div.navigation-wrapper>div>nav>ul {
         display: none !important;
     }
 }
+
+@media (max-width: 991px) {
+    body.theme_11 .wrapper .header .header-wrapper .header-search {
+        display: none !important;
+    }
+}
