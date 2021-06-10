@@ -36,3 +36,8 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
   .header_login > .d-none.d-sm-block.d-lg-none {
     display: block !important;
   }
+
+
+  .header-cart .d-none.d-lg-inline-block  {
+    display: block !important;  
+  }
