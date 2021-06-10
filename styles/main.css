@@ -119,7 +119,7 @@ body.theme-gray .header .navigation-wrapper {
 
 /* Header - Search, text */
 
-#search>div.search_field>input {
+div.search_field>input {
     font-size: 16px !important;
     font-family: Roboto, sans-serif;
     font-style: normal;
