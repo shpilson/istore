@@ -125,3 +125,12 @@ body.theme-gray .header .navigation-wrapper {
     font-style: normal;
     font-weight: normal;
 }
+
+/* Header - Navigation */
+
+header .navigation .nav.sf-menu {
+    margin: 20px auto !important;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+}
