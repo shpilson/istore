@@ -134,7 +134,7 @@ header .nav {
 }
 
 header .navigation .nav.sf-menu {
-    margin: 20px auto !important;
+    margin: 10px auto !important;
     -webkit-box-pack: start !important;
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
