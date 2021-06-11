@@ -13,5 +13,9 @@ function addNavContacts() {
     advantage1.insertAdjacentHTML('afterend', `
     <div class="nav_contacts">
     <a href="tel:null" role="link">+7 (968)<b>327-27-00</b></a>
+    </div>
+    
+    <div class="nav_text">
+        Хочешь дешевле — позвони!
     </div>`)
 };
