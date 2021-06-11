@@ -7,9 +7,8 @@ setTimeout(function changeHeader() {
 
 // Навигация -> Перезвоните
 
-const nav = document.querySelector(".nav.sf-menu");
-
 setTimeout(function addNavContacts() {
+    const nav = document.querySelector(".nav.sf-menu");
     nav.insertAdjacentHTML('afterend', `
     <div class="nav_contacts">
     <a href="tel:null" role="link">+7 (968)<b>327-27-00</b></a>
