@@ -1,0 +1,232 @@
+/* Фон */
+
+.wrapper, .container-fluid, .header-wrapper, .navigation-wrapper, body .footer .footer-meta {
+    background-color: #d1e7cd !important;
+}
+
+/* Header – Поиск */
+
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+    border-color: transparent;
+    -webkit-box-shadow: inset 0px 1px 6px rgb(151 150 150 / 39%) !important;
+    box-shadow: inset 0px 1px 6px rgb(151 150 150 / 39%) !important;
+}
+
+/* Header – Отображаем иконку авторизации */
+
+.wrapper .header .header-wrapper .header_widgets .header_login {
+    padding: 0 20px !important;
+}
+
+.header_login>.d-none.d-lg-block {
+    display: none !important;
+}
+
+.header_login>.d-none.d-sm-block.d-lg-none {
+    display: block !important;
+}
+
+/* Header – Корзина */
+
+.cart_drop_down #cart>span:first-child {
+    display: none !important;
+}
+
+.header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
+    line-height: 1.2;
+    margin: 3px 0 0 0 !important;
+}
+
+.wrapper .header .header-wrapper .header_widgets .header-cart, .wrapper .header .header-wrapper .header_widgets .header_login>a {
+    min-width: 24px !important;
+}
+
+.wrapper .header .header-wrapper .header_widgets .header-cart {
+    top: 0 !important;
+    padding: 0 !important;
+}
+
+.header-cart .cart-wrapper #cart {
+    color: black !important;
+}
+
+.cart-wrapper .dropdown, body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a, .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
+    padding: 0 !important;
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper, body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
+    width: 18px !important;
+    height: 18px !important;
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+    right: 14px !important;
+    top: -15px !important;
+}
+
+body.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    margin-top: 10px !important;
+}
+
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
+    background-color: transparent !important;
+}
+
+.header-cart .cart-wrapper #cart i {
+    font-size: 23px !important;
+}
+
+/* Header - Выравниваем контейнер */
+
+.header-wrapper>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* Header - Скрываем рамку */
+
+body.theme-gray .header .navigation-wrapper {
+    border-top: none !important;
+}
+
+/* Header - Search, text */
+
+div.search_field>input {
+    font-size: 16px !important;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Header - Navigation */
+
+@media (min-width: 1200px) {
+    body.theme_11 .wrapper .header .navigation-wrapper>div.container, body.theme_11 .wrapper .homefeatured_category>div.container {
+        max-width: 1140px !important;
+    }
+}
+
+header .nav {
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+}
+
+header .navigation .nav.sf-menu {
+    margin: 10px auto !important;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+}
+
+.nav.sf-menu li a {
+    text-transform: uppercase !important;
+    font-family: Roboto, sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+}
+
+/* Header - mobile */
+
+@media (max-width: 991px) {
+    header .navigation {
+        display: none !important;
+    }
+    body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets {
+        padding-right: 15px !important;
+    }
+}
+
+@media (max-width: 495px) {
+    body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px) {
+    body.theme_11 .wrapper .header .header-wrapper .header-search {
+        display: none !important;
+    }
+}
+
+/* Header – Navigation, Contacts */
+
+.nav_contacts {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 320px;
+    margin: 20px 20px 20px auto;
+}
+
+.nav_contacts>a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    margin: 10px auto;
+    color: #000000;
+    font-weight: 700;
+}
+
+.nav_contacts>a>b {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    font-style: normal;
+    color: black;
+    margin-left: 4px;
+}
+
+.nav_contacts>i>svg {
+    width: 25px;
+    height: 25px;
+}
+
+.nav_text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 1.5;
+    color: #000000;
+    text-align: end;
+}
+
+.nav_text>a {
+    line-height: 1.5;
+}
