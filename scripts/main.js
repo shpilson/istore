@@ -9,7 +9,7 @@ setTimeout(function changeHeader() {
 
 const nav = document.querySelector(".nav.sf-menu");
 
-function addNavContacts() {
+setTimeout(function addNavContacts() {
     advantage1.insertAdjacentHTML('afterend', `
     <div class="nav_contacts">
     <a href="tel:null" role="link">+7 (968)<b>327-27-00</b></a>
@@ -18,4 +18,4 @@ function addNavContacts() {
     <div class="nav_text">
         Хочешь дешевле — позвони!
     </div>`)
-};
+}, 100);
