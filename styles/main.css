@@ -192,12 +192,12 @@ header .navigation .nav.sf-menu {
     margin: 10px auto;
     font-size: 21px;
     color: #000000;
-    font-weight: bold;
   }
   
   .nav_contacts > a > b {
     color: black;
     margin-left: 4px;
+    font-weight: bold;
   }
   
   .nav_contacts > i > svg {
