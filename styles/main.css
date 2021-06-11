@@ -186,35 +186,36 @@ header .navigation .nav.sf-menu {
     align-items: center;
     width: 320px;
     margin: 20px 20px 20px auto;
-  }
-  
-  .nav_contacts > a {
+}
+
+.nav_contacts>a {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 22px;
-
     margin: 10px auto;
     color: #000000;
-  }
-  
-  .nav_contacts > a > b {
+}
+
+.nav_contacts>a>b {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    font-style: normal;
     color: black;
     margin-left: 4px;
-    font-weight: bold;
-  }
-  
-  .nav_contacts > i > svg {
+}
+
+.nav_contacts>i>svg {
     width: 25px;
     height: 25px;
-  }
-  
-  .nav_text {
+}
+
+.nav_text {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -223,9 +224,8 @@ header .navigation .nav.sf-menu {
     align-items: center;
     line-height: 1.5;
     color: #000000;
-  }
-  
-  .nav_text > a {
+}
+
+.nav_text>a {
     line-height: 1.5;
-  }
-  
+}
