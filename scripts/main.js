@@ -10,7 +10,7 @@ setTimeout(function changeHeader() {
 const nav = document.querySelector(".nav.sf-menu");
 
 setTimeout(function addNavContacts() {
-    advantage1.insertAdjacentHTML('afterend', `
+    nav.insertAdjacentHTML('afterend', `
     <div class="nav_contacts">
     <a href="tel:null" role="link">+7 (968)<b>327-27-00</b></a>
     </div>
