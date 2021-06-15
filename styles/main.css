@@ -7,6 +7,90 @@
     background-color: #d1e7cd !important;
 }
 
+/* Product-card - Price Actions */
+
+body .wrapper .page-section .products.grid .product-item .thumbnail .price_actions.upper_price_actions {
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+    margin-top: 20px !important;
+}
+
+/* Product-card - Add To Cart */
+
+.add_to_cart button span {
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
+    background: transparent !important;
+    color: var(--color-custom-theme) !important;
+    border: 1px solid var(--color-custom-theme);
+    border-radius: var(--btn-border-radius);
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
+body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover, .thumbnail .remove_from_wishlist button:hover {
+    background: var(--btn-hover) !important;
+    color: white !important;
+}
+
+body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:active, .thumbnail .add_to_wishlist button:active, .thumbnail .remove_from_wishlist button:active {
+    background: var(--btn-active) !important;
+    color: white !important;
+}
+
+/* Product-card - Color Buttons */
+
+body.theme_11
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  .buttons_added.quantity {
+  border-color: var(--color-custom-theme) !important;
+  border-radius: 4px !important;
+}
+
+.thumbnail .add_to_wishlist button,
+.thumbnail .remove_from_wishlist button {
+  background-color: #ebebeb !important;
+}
+
+body.theme_11
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  .buttons_added.quantity
+  i {
+  color: var(--color-custom-theme) !important;
+  padding: 15px !important;
+}
+
+body.theme_11
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  .buttons_added.quantity
+  input.quantity_field {
+  color: var(--color-custom-theme) !important;
+}
+
+
 /* Product-card */
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
