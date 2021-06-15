@@ -159,4 +159,5 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 
 .page-section.latest-section .img-fluid {
     background-color: #FFF !important;
+    border-radius: 20px;
 }
