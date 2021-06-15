@@ -158,5 +158,5 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 /* ... */
 
 .thumbnail .media-link {
-    background-color: #FFF;
+    background-color: #FFF !important;
 }
