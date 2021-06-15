@@ -154,3 +154,9 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 #home>div>div.content-area>section>div>div>div:nth-child(2)>div.table_holder {
     display: none !important;
 }
+
+/* ... */
+
+.thumbnail .media-link {
+    background-color: #FFF;
+}
