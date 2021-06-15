@@ -157,6 +157,6 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 
 /* ... */
 
-#home>div>div.content-area>section.page-section.latest-section>div>div>div:nth-child(2)>div>div.media>a>img {
+#home>div>div.content-area>section.page-section.latest-section>div>div>div>div.media>a>img {
     background-color: #FFF !important;
 }
