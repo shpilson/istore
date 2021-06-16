@@ -37,6 +37,8 @@ body .wrapper .page-section .products.grid .product-item .thumbnail .price_actio
     color: #309CFF;
 }
 
+/* Обычное состояние кнопки */
+
 body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
     background: #FFF !important;
     color: var(--color-custom-theme) !important;
@@ -47,10 +49,14 @@ body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pr
     transition: none !important;
 }
 
+/* Кнопка при наведении */
+
 body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover, .thumbnail .remove_from_wishlist button:hover {
     background: #309CFF !important;
     color: white !important;
 }
+
+/* Кнопка при нажатии */
 
 body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:active, .thumbnail .add_to_wishlist button:active, .thumbnail .remove_from_wishlist button:active {
     background: #2683D9 !important;
