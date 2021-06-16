@@ -110,3 +110,7 @@ body.ru footer .footer-widgets .container {
         border-top: 1px solid black;
     }
 }
+
+body .footer .footer-meta {
+    border-top: none !important;
+}
