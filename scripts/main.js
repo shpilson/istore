@@ -49,9 +49,9 @@ setTimeout(function addYandexMap() {
 </svg>
 
 </i>
-      <p class="contact__list-text">
-        <a href="mailto:apple-podolsk@mail.ru" role="link">apple-podolsk@mail.ru</a>
-      </p>
+    <p class="contact__list-text">
+        <a href="tel:8 (968) 327-27-00" role="link">8 (968) 327-27-00</a>
+    </p>
     </li>
     
     <li class="contact__list-el">
@@ -62,9 +62,9 @@ setTimeout(function addYandexMap() {
 
 
 </i>
-      <p class="contact__list-text">
-        <a href="tel:8 (968) 327-27-00" role="link">8 (968) 327-27-00</a>
-      </p>
+    <p class="contact__list-text">
+        <a href="mailto:apple-podolsk@mail.ru" role="link">apple-podolsk@mail.ru</a>
+    </p>
     </li>
     
     </ul>
