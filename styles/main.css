@@ -24,7 +24,7 @@ body .wrapper .page-section .products.grid .product-item .thumbnail .price_actio
     color: #309CFF;
 }
 
-.fa-shopping-cart {
+.add_to_cart .fa-shopping-cart {
     content: "\f07a";
     color: #309CFF;
 }
