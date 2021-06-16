@@ -9,3 +9,8 @@
     background-color: #d1e7cd !important;
 }
 
+/* Footer */
+
+body.theme-gray .footer {
+    border-top: none !important;
+}
