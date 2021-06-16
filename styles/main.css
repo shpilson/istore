@@ -59,15 +59,15 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    color: #9f9f9f !important;
+    color: #9F9F9F !important;
 }
 
 .contact__map iframe {
     height: 100%;
     width: 100%;
     padding: 0 !important;
-    -webkit-filter: grayscale(0.5);
-    filter: grayscale(0.5);
+    -webkit-filter: grayscale(0.9);
+    filter: grayscale(0.9);
     -webkit-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
