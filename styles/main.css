@@ -53,7 +53,7 @@ body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pr
 }
 
 body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:active, .thumbnail .add_to_wishlist button:active, .thumbnail .remove_from_wishlist button:active {
-    background: var(--btn-active) !important;
+    background: #2683D9 !important;
     color: white !important;
 }
 
