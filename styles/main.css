@@ -26,9 +26,12 @@
 .contacts__title {
     font-weight: bold;
     color: white;
-    font-size: 22px !important;
     margin: 0 auto 20px;
     width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 29px !important;
+    line-height: 96%;
 }
 
 .contact__list-el i svg {
