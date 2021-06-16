@@ -2,89 +2,10 @@
 @import "https://shpilson.github.io/istore/styles/caption.css";
 @import "https://shpilson.github.io/istore/styles/categories.css";
 @import "https://shpilson.github.io/istore/styles/product-card.css";
+@import "https://shpilson.github.io/istore/styles/map.css";
 /* Фон */
 
 .wrapper, .container-fluid, .header-wrapper, .navigation-wrapper, body .footer .footer-meta {
     background-color: #d1e7cd !important;
 }
 
-/* Contacts - Map */
-
-.contact__map, .contacts {
-    border-radius: 4px;
-    height: 377px;
-}
-
-.contacts {
-    background: #000;
-    padding: 80px 0 !important;
-}
-
-.contact__map {
-    padding: 0 !important;
-}
-
-.contacts__title {
-    font-weight: bold;
-    color: white;
-    margin: 0 auto 20px;
-    width: 80%;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 29px !important;
-    line-height: 96%;
-}
-
-.contact__list-el i svg {
-    width: 19px;
-    height: 19px;
-}
-
-.contacts__list {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.contact__list-el {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-bottom: 25px;
-}
-
-.contact__list-text {
-    margin: 0 0 0 40px !important;
-}
-
-.contact__list-text a {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    color: #9F9F9F !important;
-    font-size: 17px;
-}
-
-.contact__map iframe {
-    height: 100%;
-    width: 100%;
-    padding: 0 !important;
-    -webkit-filter: grayscale(0.9);
-    filter: grayscale(0.9);
-    -webkit-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-}
-
-.contact__map iframe:hover {
-    -webkit-filter: none;
-    filter: none;
-}
-
-@media (max-width: 768px) {
-    .contact__map {
-        height: 377px;
-    }
-}
