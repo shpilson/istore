@@ -24,6 +24,10 @@ body .wrapper .page-section .products.grid .product-item .thumbnail .price_actio
     color: #309CFF;
 }
 
+.add_to_cart button:active span {
+    color: #FFF;
+}
+
 .add_to_cart .fa-shopping-cart {
     content: "\f07a";
     color: #309CFF;
@@ -40,7 +44,7 @@ body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pr
 }
 
 body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover, .thumbnail .remove_from_wishlist button:hover {
-    background: var(--btn-hover) !important;
+    background: #309CFF !important;
     color: white !important;
 }
 
