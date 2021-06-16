@@ -115,8 +115,8 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .capt
 }
 
 .product-item .thumbnail .caption, .product-layout .thumbnail .caption {
-    min-height: 35px;
-    max-height: 35px;
+    min-height: 45px;
+    max-height: 45px;
 }
 
 body.product-product .content-area>section>div>div>div.col-12.col-lg-6.single_image.bx-slider-wrapper.bx-off>div.item.only_thumb.no_images>div.mobile_wishlist>button {
