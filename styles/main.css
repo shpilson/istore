@@ -28,6 +28,10 @@ body .wrapper .page-section .products.grid .product-item .thumbnail .price_actio
     color: #FFF;
 }
 
+.add_to_cart button:hover span {
+    color: #FFF;
+}
+
 .add_to_cart .fa-shopping-cart {
     content: "\f07a";
     color: #309CFF;
