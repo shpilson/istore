@@ -64,7 +64,7 @@ setTimeout(function addYandexMap() {
 
 </i>
     <p class="contact__list-text">
-        <a href="mailto:apple-podolsk@mail.ru" role="link">apple-podolsk@mail.ru</a>
+        <a href="mailto:apptail@gmail.com" role="link">apptail@gmail.com</a>
     </p>
     </li>
     
