@@ -65,8 +65,6 @@ body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pr
 
 /* Product-card - Color Buttons */
 
-
-
 /* Product-card */
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
@@ -88,6 +86,12 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .capt
 
 .caption-title a {
     font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
 }
 
 .share_page_wrapper {
