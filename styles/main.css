@@ -21,6 +21,12 @@ body .wrapper .page-section .products.grid .product-item .thumbnail .price_actio
     text-transform: capitalize !important;
     font-weight: normal !important;
     font-size: 16px !important;
+    color: #309CFF;
+}
+
+.fa-shopping-cart {
+    content: "\f07a";
+    color: #309CFF;
 }
 
 body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
