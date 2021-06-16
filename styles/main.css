@@ -83,6 +83,7 @@ body.theme-gray .footer {
   body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title,
   body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
     color: black !important;
+    font-family: 'Roboto', sans-serif;
   }
   
   body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
