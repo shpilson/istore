@@ -82,7 +82,7 @@ setTimeout(function addYandexMap() {
 // Социальные сети в футере
 
 setTimeout(function socialFooter() {
-    const socialIconSelector = document.querySelector(".footer .footer-widgets .container .row");
+    const socialIconSelector = document.querySelector('.footer .footer-widgets .container .row');
     socialIconSelector.insertAdjacentHTML('beforeend', 
     `<div class="col-md-3">
         <div class="widget widget-categories">
