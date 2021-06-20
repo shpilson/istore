@@ -28,3 +28,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
     -ms-flex-align: center;
     align-items: center;
 }
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_wishlist>a i {
+    font-size: 23px;
+}
