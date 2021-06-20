@@ -105,7 +105,7 @@ setTimeout(function widgetHeader() {
     widgetSelector.insertAdjacentHTML('afterbegin',`
         <div class="header_wishlist">
             <a class="d-none d-sm-block d-lg-none" href="https://store110910.sellavi.com/index.php?route=account/wishlist" role="link">
-            <i class="far fa-heart"></i>
+            <i class="far fa-heart">::before</i>
             </a>
         </div>`
     )
