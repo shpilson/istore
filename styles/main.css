@@ -10,3 +10,8 @@
     background-color: #d1e7cd !important;
 }
 
+/* Icons */
+
+.fa-user:before {
+    content: "\f2bd" !important;
+}
