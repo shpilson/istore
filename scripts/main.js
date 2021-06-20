@@ -83,8 +83,8 @@ setTimeout(function addYandexMap() {
 
 setTimeout(function socialFooter() {
     const socialIconSelector = document.querySelector('.footer .footer-widgets .container .row');
-    socialIconSelector.insertAdjacentHTML('beforeend', 
-    `<div class="col-md-3">
+    socialIconSelector.insertAdjacentHTML('beforeend',
+        `<div class="col-md-3">
         <div class="widget widget-categories">
             <h4 class="widget-title">Мы в соцсетях</h4>
                 <ul class="social-icons-new">
@@ -114,4 +114,12 @@ setTimeout(function widgetHeader() {
         </div>`
     )
 }, 100);
-*/ 
+*/
+
+
+// Добавляем надпись "Категории" на главной странице
+
+setTimeout(function addCategories() {
+    const catalog = document.querySelector("#home > div > div.content-area > section.page-section.homefeatured_category > div")
+    catalog.insertAdjacentHTML('afterbegin', `<h2 class="section-title mb-4 mt-4"><span>Категории</span></h2>`)
+}, 100);
