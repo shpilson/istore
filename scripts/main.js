@@ -121,5 +121,5 @@ setTimeout(function widgetHeader() {
 
 setTimeout(function addCategories() {
     const catalog = document.querySelector("#home > div > div.content-area > section.page-section.homefeatured_category > div")
-    catalog.insertAdjacentHTML('afterbegin', `<h2 class="section-title mb-4 mt-4"><span>Категории</span></h2>`)
+    catalog.insertAdjacentHTML('afterbegin', `<h2 class="section-title mb-4 mt-4">Категории</h2>`)
 }, 100);
