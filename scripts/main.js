@@ -119,7 +119,15 @@ setTimeout(function widgetHeader() {
 
 // Добавляем надпись "Категории" на главной странице
 
-setTimeout(function addCategories() {
+setTimeout(function addCatalog() {
     const catalog = document.querySelector("#home > div > div.content-area > section.page-section.homefeatured_category > div")
     catalog.insertAdjacentHTML('afterbegin', `<h2 class="section-title mb-4 mt-4">Категории</h2>`)
+}, 100);
+
+
+// Добавляем надпись "Товары" на главной странице
+
+setTimeout(function addItems() {
+    const items = document.querySelector(".page-section.latest-section")
+    items.insertAdjacentHTML('afterbegin', `<h2 class="section-title mb-4 mt-4">Товары</h2>`)
 }, 100);
