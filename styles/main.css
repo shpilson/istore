@@ -19,3 +19,12 @@
 .fa-shopping-cart:before {
     content: "\f290" !important;
 }
+
+body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper, body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_wishlist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}

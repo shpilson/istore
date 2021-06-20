@@ -103,8 +103,8 @@ setTimeout(function socialFooter() {
 setTimeout(function widgetHeader() {
     const widgetSelector = document.querySelector('.header_widgets')
     widgetSelector.insertAdjacentHTML('afterbegin',`
-        <div class="test">
-            <a class="d-none d-sm-block d-lg-none" href="https://store108758.sellavi.com/index.php?route=account/wishlist" role="link">
+        <div class="header_wishlist">
+            <a class="d-none d-sm-block d-lg-none" href="https://store110910.sellavi.com/index.php?route=account/wishlist" role="link">
             <i class="far fa-heart"></i>
             </a>
         </div>`
