@@ -15,3 +15,7 @@
 .fa-user:before {
     content: "\f2bd" !important;
 }
+
+.fa-shopping-cart:before {
+    content: "\f290" !important;
+}
