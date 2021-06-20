@@ -99,3 +99,7 @@ body.ru footer .footer-widgets .container {
 body .footer .footer-meta {
     border-top: none !important;
 }
+
+.social-icons {
+    display: none;
+}
