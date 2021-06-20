@@ -98,7 +98,11 @@ setTimeout(function socialFooter() {
     </div>`)
 }, 100);
 
-// Виджет в Header
+
+/*
+
+// Виджет Wishilist в Header
+
 
 setTimeout(function widgetHeader() {
     const widgetSelector = document.querySelector('.header_widgets')
@@ -110,3 +114,4 @@ setTimeout(function widgetHeader() {
         </div>`
     )
 }, 100);
+*/ 
