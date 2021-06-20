@@ -98,3 +98,15 @@ setTimeout(function socialFooter() {
     </div>`)
 }, 100);
 
+// Виджет в Header
+
+setTimeout(function widgetHeader() {
+    const widgetSelector = document.querySelector('.header > div.header-wrapper > div.container-fluid > div.header_widgets')
+    widgetSelector.insertAdjacentHTML('afterbegin',`
+        <div class="test">
+            <a class="d-none d-sm-block d-lg-none" href="https://store108758.sellavi.com/index.php?route=account/wishlist" role="link">
+            <i class="far fa-heart"></i>
+            </a>
+        </div>`
+    )
+}, 100);
