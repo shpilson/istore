@@ -10,9 +10,3 @@
     background-color: #d1e7cd !important;
 }
 
-
-/* Footer - Фиксы */
-
-.footer-widgets .row .col-md-3 {
-    border-top: none !important;
-}
