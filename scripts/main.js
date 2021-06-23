@@ -125,7 +125,7 @@ setTimeout(function addCatalog() {
 }, 100);
 
 
-// Добавляем надпись "Товары" на главной странице
+// Добавляем надпись "Товары" на главной страницe
 
 setTimeout(function addItems() {
     const items = document.querySelector(".page-section.latest-section")
